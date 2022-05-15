@@ -1,4 +1,5 @@
 فایل iran.dat را دانلود کنید
+
 فایل را از طریق Route -> Three dots -> Manage Route Assets به کلاینت اضافه کنید.
 sagernet
 
