@@ -1,39 +1,41 @@
 ​###​ ​[​SagerNet​](https://github.com/SagerNet/SagerNet) 
 
-فایل iran.dat را دانلود کنید
+فایل `iran.dat` را دانلود کنید
 
-فایل را از طریق Route -> Three dots -> Manage Route Assets به کلاینت اضافه کنید
+فایل را از طریق `Route -> Three dots -> Manage Route Assets` به کلاینت اضافه کنید
 
-از بخش Route -> Create Route قوانین زیر را اضافه کنید:
+از بخش `Route -> Create Route` قوانین زیر را اضافه کنید:
 
 Block Ads:
 
-domain: geosite:category-ads-all
+domain: `geosite:category-ads-all`
 
-outbound: Block
+outbound: `Block`
 
 Block Iran Ads:
 
-domain: ext:iran.dat:ads
+domain: `ext:iran.dat:ads`
 
-outbound: Block
+outbound: `Block`
 
 Bypass Iran .ir Domains:
 
-domain: regexp:.+\.ir$
+domain: `regexp:.+\.ir$`
 
-outbound: Bypass
+outbound: `Bypass`
 
 Bypass Iran non .ir Domains:
 
-domain: ext:iran.dat:other
+domain: `ext:iran.dat:other`
 
-outbound: Bypass
+outbound: `Bypass`
 
 Bypass Iran geoip:
 
-ip: geoip:ir
+ip: `geoip:ir`
 
-outbound: Bypass
+outbound: `Bypass`
 
 اتصال خود را قطع و وصل کنید.
+
+​###[​telegram channel](https://t.me/nim_baha_IR)###
