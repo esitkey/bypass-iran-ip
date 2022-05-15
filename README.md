@@ -4,6 +4,7 @@
 sagernet
 
 از بخش Route -> Create Route قوانین زیر را اضافه کنید:
+
 Block Ads:
 
 domain: geosite:category-ads-all
